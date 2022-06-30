@@ -48,6 +48,7 @@
                 <ul>
                     <li><a href="#hero">Home</a></li>
                     <li><a href="#about">About</a></li>
+                    <li><a href="#testimonials">Feedback</a></li>
                     <li><a href="#gallery">Gallery</a></li>
                     <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
@@ -70,7 +71,7 @@
                 </ul>
             </nav><!-- .navbar -->
 
-            {{-- <a class="btn-book-a-table" href="#book-a-table">Book a Seat</a> --}}
+            <a class="btn-book-a-table" href="#">Register Here</a>
 
             <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
             <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
@@ -94,7 +95,7 @@
                     <img src="{{ asset('home/img/100job.png') }}" alt="" style="height:100px ;">
                     <br />
                     <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
-                        <a href="#book-a-table" class="btn-book-a-table">Book a Seat</a>
+                        <a href="#" class="btn-book-a-table">Register Here</a>
                         <a href="https://www.youtube.com/watch?v=wIk_JDNpEKw"
                             class="glightbox btn-watch-video d-flex align-items-center"><i
                                 class="bi bi-play-circle"></i><span>Watch Video</span></a>
