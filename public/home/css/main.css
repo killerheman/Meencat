@@ -1606,7 +1606,7 @@ section {
 .footer {
   font-size: 14px;
   background-color: #1f1f24;
-  padding: 50px 0;
+  padding: 20px 0;
   color: rgba(255, 255, 255, 0.7);
 }
 
@@ -1676,7 +1676,7 @@ section {
 
 .footer .copyright {
   text-align: center;
-  padding-top: 30px;
+  padding-top: 15px;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
