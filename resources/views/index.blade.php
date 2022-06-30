@@ -26,7 +26,7 @@
     <link href="{{ asset('home/vendor/aos/aos.css') }}" rel="stylesheet">
     <link href="{{ asset('home/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
     <link href="{{ asset('home/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
     <!-- Template Main CSS File -->
     <link href="{{ asset('home/css/main.css') }}" rel="stylesheet">
 
@@ -124,18 +124,21 @@
                         style="background-image: url({{ asset('home/img/pankaj-pandey.png') }}) ;background-repeat: no-repeat;"
                         data-aos="fade-up" data-aos-delay="150">
                         <div class="call-us position-absolute">
-                            <h4>Pankaj Pandey</h4>
-                            <p>M.D.</p>
+                            <h4>Er. Pankaj Pandey <br/>(Ex WIPRO Employee )</h4>
+                            <p>C.E.O.</p>
                         </div>
                     </div>
                     <div class="col-lg-5 d-flex align-items-end" data-aos="fade-up" data-aos-delay="300">
                         <div class="content ps-0 ps-lg-5">
 
                             <p class="text-justify">
-                                Becoming a Software Engineer, like in TCS, Wipro, Infosys, CTS, IBM and All , is undoubtedly a dream of many in this country. It is not only one of the most prestigious one could ever think of.
+                                Becoming a Software Engineer, like in TCS, Wipro, Infosys, CTS, IBM and All , is
+                                undoubtedly a dream of many in this country. It is not only one of the most prestigious
+                                one could ever think of.
                             </p>
                             <p class="text-justify">
-                                MeeNCaT PC for Placement In Top IT MNC, For Engineering students like BCA, B.Tech, MCA, BE, Diploma and B.Sc Students.
+                                MeeNCaT PC for Placement In Top IT MNC, For Engineering students like BCA, B.Tech, MCA,
+                                BE, Diploma and B.Sc Students.
                             </p>
                             <div class="position-relative mt-4">
                                 <img src="{{ asset('home/img/placement.jpg') }}" class="img-fluid" alt="">
@@ -147,7 +150,7 @@
 
 
                 <div class="row g-0 mt-5">
-                    <img src="{{ asset('home/img/banner.jpeg') }}" class="img-fluid" alt="...">
+                    <img src="{{ asset('home/img/banner2.jpg') }}" class="img-fluid" alt="...">
                 </div>
 
             </div>
@@ -163,10 +166,13 @@
                         <div class="why-box">
                             <h3>Why Choose MeeNCat ?</h3>
                             <p class="text-justify">
-                                Becoming a Software Engineer, like in TCS, Wipro, Infosys, CTS, IBM and All , is undoubtedly a dream of many in this country. It is not only one of the most prestigious one could ever think of.
+                                Becoming a Software Engineer, like in TCS, Wipro, Infosys, CTS, IBM and All , is
+                                undoubtedly a dream of many in this country. It is not only one of the most prestigious
+                                one could ever think of.
                             </p>
                             <p class="text-justify">
-                                MeeNCaT PC for Placement In Top IT MNC, For Engineering students like BCA, B.Tech, MCA, BE, Diploma and B.Sc Students.
+                                MeeNCaT PC for Placement In Top IT MNC, For Engineering students like BCA, B.Tech, MCA,
+                                BE, Diploma and B.Sc Students.
                             </p>
                             {{-- <div class="text-center">
                                 <a href="#" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
@@ -181,7 +187,10 @@
                                 <div class="icon-box d-flex flex-column text-justify">
                                     <i class="bi bi-clipboard-data"></i>
                                     <h4>Top Placement Institutes</h4>
-                                    <p>It is one and unique of the top placement coaching institutes in India, established in 2018 with an aim to help placement the aspirants clear their exams of TCS NQT, TCS Digital, Wipro ENTH, Wipro WILP, CTS Genc, HCL and Infosys all.</p>
+                                    <p>It is one and unique of the top placement coaching institutes in India,
+                                        established in 2018 with an aim to help placement the aspirants clear their
+                                        exams of TCS NQT, TCS Digital, Wipro ENTH, Wipro WILP, CTS Genc, HCL and Infosys
+                                        all.</p>
                                 </div>
                             </div><!-- End Icon Box -->
 
@@ -189,7 +198,8 @@
                                 <div class="icon-box d-flex flex-column text-justify">
                                     <i class="bi bi-gem"></i>
                                     <h4>Get placed in desired MNC's</h4>
-                                    <p>The placements  are decent and u can  expect  to get  placed in your  desired  multinational companies like TCS/ Wipro/CTS/Accenture.</p>
+                                    <p>The placements are decent and u can expect to get placed in your desired
+                                        multinational companies like TCS/ Wipro/CTS/Accenture.</p>
                                 </div>
                             </div><!-- End Icon Box -->
 
@@ -197,7 +207,8 @@
                                 <div class="icon-box d-flex flex-column text-justify">
                                     <i class="bi bi-inboxes"></i>
                                     <h4>Highest Placement Records</h4>
-                                    <p>In this Year 2022 MeeNCaT Create a Number of Placement offer 201 Aspirant's im TCS, Wipro, Infosys and CTS only.
+                                    <p>In this Year 2022 MeeNCaT Create a Number of Placement offer 201 Aspirant's in
+                                        TCS, Wipro, Infosys and CTS only.
                                     </p>
                                 </div>
                             </div><!-- End Icon Box -->
@@ -210,6 +221,9 @@
             </div>
         </section><!-- End Why Us Section -->
 
+        <div class="container mt-5">
+            <img src="{{ asset('home/img/banner.jpeg') }}" class="img-fluid" alt="...">
+        </div>
         <!-- ======= Testimonials Section ======= -->
         <section id="testimonials" class="testimonials section-bg mt-5">
             <div class="container" data-aos="fade-up">
@@ -234,8 +248,8 @@
                                                 et. Maecen aliquam, risus at semper.
                                                 <i class="bi bi-quote quote-icon-right"></i>
                                             </p>
-                                            <h3>Saul Goodman</h3>
-                                            <h4>Ceo &amp; Founder</h4>
+                                            <h3>Astha Yadav</h3>
+                                            <h4>TCS Employee</h4>
                                             <div class="stars">
                                                 <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
                                                     class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
@@ -244,7 +258,7 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-2 text-center">
-                                        <img src="{{ asset('home/img/testimonials/testimonials-1.jpg') }}"
+                                        <img src="{{ asset('home/img/testimonials/t3.jpeg') }}"
                                             class="img-fluid testimonial-img" alt="">
                                     </div>
                                 </div>
@@ -263,8 +277,8 @@
                                                 noster fugiat irure amet legam anim culpa.
                                                 <i class="bi bi-quote quote-icon-right"></i>
                                             </p>
-                                            <h3>Sara Wilsson</h3>
-                                            <h4>Designer</h4>
+                                            {{-- <h3>Sara Wilsson</h3> --}}
+                                            <h4>Wipro Employee</h4>
                                             <div class="stars">
                                                 <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
                                                     class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
@@ -273,7 +287,7 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-2 text-center">
-                                        <img src="{{ asset('home/img/testimonials/testimonials-2.jpg') }}"
+                                        <img src="{{ asset('home/img/testimonials/t1.jpeg') }}"
                                             class="img-fluid testimonial-img" alt="">
                                     </div>
                                 </div>
@@ -292,8 +306,8 @@
                                                 amet eram fore quis sint minim.
                                                 <i class="bi bi-quote quote-icon-right"></i>
                                             </p>
-                                            <h3>Jena Karlis</h3>
-                                            <h4>Store Owner</h4>
+                                            {{-- <h3>Jena Karlis</h3> --}}
+                                            <h4>Mindtree/ Deloitte</h4>
                                             <div class="stars">
                                                 <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
                                                     class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
@@ -302,7 +316,7 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-2 text-center">
-                                        <img src="{{ asset('home/img/testimonials/testimonials-3.jpg') }}"
+                                        <img src="{{ asset('home/img/testimonials/t2.jpeg') }}"
                                             class="img-fluid testimonial-img" alt="">
                                     </div>
                                 </div>
@@ -321,8 +335,8 @@
                                                 cillum fugiat legam esse veniam culpa fore nisi cillum quid.
                                                 <i class="bi bi-quote quote-icon-right"></i>
                                             </p>
-                                            <h3>John Larson</h3>
-                                            <h4>Entrepreneur</h4>
+                                            {{-- <h3>John Larson</h3> --}}
+                                            <h4>TCS Employee</h4>
                                             <div class="stars">
                                                 <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
                                                     class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
@@ -331,7 +345,7 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-2 text-center">
-                                        <img src="{{ asset('home/img/testimonials/testimonials-4.jpg') }}"
+                                        <img src="{{ asset('home/img/testimonials/t4.jpeg') }}"
                                             class="img-fluid testimonial-img" alt="">
                                     </div>
                                 </div>
@@ -343,7 +357,8 @@
                 </div>
 
             </div>
-        </section><!-- End Testimonials Section -->
+        </section>
+        <!-- End Testimonials Section -->
 
         {{-- <!-- ======= Events Section ======= -->
         <section id="events" class="events">
@@ -406,36 +421,37 @@
                 <div class="gallery-slider swiper">
                     <div class="swiper-wrapper align-items-center">
                         <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
-                                href="{{asset('home/img/gallery/gallery-1.jpg')}}"><img src="{{asset('home/img/gallery/gallery-1.jpg')}}"
-                                    class="img-fluid" alt=""></a></div>
-                        <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
-                                href="{{ asset('home/img/gallery/gallery-2.jpg') }}"><img
-                                    src="{{ asset('home/img/gallery/gallery-2.jpg') }}" class="img-fluid"
+                                href="{{ asset('home/img/gallery/g1.jpg') }}"><img
+                                    src="{{ asset('home/img/gallery/g1.jpg') }}" class="img-fluid"
                                     alt=""></a></div>
                         <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
-                                href="{{ asset('home/img/gallery/gallery-3.jpg') }}"><img
-                                    src="{{ asset('home/img/gallery/gallery-3.jpg') }}" class="img-fluid"
+                                href="{{ asset('home/img/gallery/g2.jpg') }}"><img
+                                    src="{{ asset('home/img/gallery/g2.jpg') }}" class="img-fluid"
                                     alt=""></a></div>
                         <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
-                                href="{{ asset('home/img/gallery/gallery-4.jpg') }}"><img
-                                    src="{{ asset('home/img/gallery/gallery-4.jpg') }}" class="img-fluid"
+                                href="{{ asset('home/img/gallery/g3.jpg') }}"><img
+                                    src="{{ asset('home/img/gallery/g3.jpg') }}" class="img-fluid"
+                                    alt=""></a></div>
+                        {{-- <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
+                                href="{{ asset('home/img/gallery/g4.jpg') }}"><img
+                                    src="{{ asset('home/img/gallery/g4.jpg') }}" class="img-fluid"
+                                    alt=""></a></div> --}}
+                        <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
+                                href="{{ asset('home/img/gallery/g5.jpg') }}"><img
+                                    src="{{ asset('home/img/gallery/g5.jpg') }}" class="img-fluid"
                                     alt=""></a></div>
                         <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
-                                href="{{ asset('home/img/gallery/gallery-5.jpg') }}"><img
-                                    src="{{ asset('home/img/gallery/gallery-5.jpg') }}" class="img-fluid"
+                                href="{{ asset('home/img/gallery/g6.jpg') }}"><img
+                                    src="{{ asset('home/img/gallery/g6.jpg') }}" class="img-fluid"
                                     alt=""></a></div>
-                        <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
-                                href="{{ asset('home/img/gallery/gallery-6.jpg') }}"><img
-                                    src="{{ asset('home/img/gallery/gallery-6.jpg') }}" class="img-fluid"
-                                    alt=""></a></div>
-                        <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
-                                href="{{ asset('home/img/gallery/gallery-7.jpg') }}"><img
-                                    src="{{ asset('home/img/gallery/gallery-7.jpg') }}" class="img-fluid"
-                                    alt=""></a></div>
-                        <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
+                        {{-- <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
+                                href="{{ asset('home/img/gallery/g7.jpg') }}"><img
+                                    src="{{ asset('home/img/gallery/g7.jpg') }}" class="img-fluid"
+                                    alt=""></a></div> --}}
+                        {{-- <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
                                 href="{{ asset('home/img/gallery/gallery-8.jpg') }}"><img
                                     src="{{ asset('home/img/gallery/gallery-8.jpg') }}" class="img-fluid"
-                                    alt=""></a></div>
+                                    alt=""></a></div> --}}
                     </div>
                     <div class="swiper-pagination"></div>
                 </div>
@@ -533,7 +549,8 @@
                 <!--End Contact Form -->
 
             </div>
-        </section><!-- End Contact Section -->
+        </section>
+        <!-- End Contact Section -->
 
     </main>
     <!-- End #main -->
