@@ -150,7 +150,7 @@
 
 
                 <div class="row g-0 mt-5">
-                    <img src="{{ asset('home/img/banner2.jpg') }}" class="img-fluid" alt="...">
+                    <img src="{{ asset('home/img/banner2.JPG') }}" class="img-fluid" alt="...">
                 </div>
 
             </div>
@@ -421,28 +421,28 @@
                 <div class="gallery-slider swiper">
                     <div class="swiper-wrapper align-items-center">
                         <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
-                                href="{{ asset('home/img/gallery/g1.jpg') }}"><img
-                                    src="{{ asset('home/img/gallery/g1.jpg') }}" class="img-fluid"
+                                href="{{ asset('home/img/gallery/g1.JPG') }}"><img
+                                    src="{{ asset('home/img/gallery/g1.JPG') }}" class="img-fluid"
                                     alt=""></a></div>
                         <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
-                                href="{{ asset('home/img/gallery/g2.jpg') }}"><img
-                                    src="{{ asset('home/img/gallery/g2.jpg') }}" class="img-fluid"
+                                href="{{ asset('home/img/gallery/g2.JPG') }}"><img
+                                    src="{{ asset('home/img/gallery/g2.JPG') }}" class="img-fluid"
                                     alt=""></a></div>
                         <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
-                                href="{{ asset('home/img/gallery/g3.jpg') }}"><img
-                                    src="{{ asset('home/img/gallery/g3.jpg') }}" class="img-fluid"
+                                href="{{ asset('home/img/gallery/g3.JPG') }}"><img
+                                    src="{{ asset('home/img/gallery/g3.JPG') }}" class="img-fluid"
                                     alt=""></a></div>
                         {{-- <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
                                 href="{{ asset('home/img/gallery/g4.jpg') }}"><img
                                     src="{{ asset('home/img/gallery/g4.jpg') }}" class="img-fluid"
                                     alt=""></a></div> --}}
                         <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
-                                href="{{ asset('home/img/gallery/g5.jpg') }}"><img
-                                    src="{{ asset('home/img/gallery/g5.jpg') }}" class="img-fluid"
+                                href="{{ asset('home/img/gallery/g5.JPG') }}"><img
+                                    src="{{ asset('home/img/gallery/g5.JPG') }}" class="img-fluid"
                                     alt=""></a></div>
                         <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
-                                href="{{ asset('home/img/gallery/g6.jpg') }}"><img
-                                    src="{{ asset('home/img/gallery/g6.jpg') }}" class="img-fluid"
+                                href="{{ asset('home/img/gallery/g6.JPG') }}"><img
+                                    src="{{ asset('home/img/gallery/g6.JPG') }}" class="img-fluid"
                                     alt=""></a></div>
                         {{-- <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
                                 href="{{ asset('home/img/gallery/g7.jpg') }}"><img
