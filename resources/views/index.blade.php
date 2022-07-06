@@ -5,9 +5,15 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
+<<<<<<< Updated upstream
   <title>MeenCat PC</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
+=======
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" />
+</head>
+>>>>>>> Stashed changes
 
   <!-- Favicons -->
   <link href="{{asset('home/img/meencat-logo.jpeg')}}" rel="icon">
@@ -199,6 +205,7 @@
               </div><!-- End Icon Box -->
 
             </div>
+<<<<<<< Updated upstream
           </div>
 
         </div>
@@ -218,6 +225,205 @@
               <p>Clients</p>
             </div>
           </div><!-- End Stats Item -->
+=======
+        </section>
+  
+        {{-- <!-- ======= Events Section ======= -->
+        <section id="events" class="events">
+            <div class="container-fluid" data-aos="fade-up">
+
+                        <div class="post-slide">
+                            <div class="post-date">
+                                <span class="date">17</span>
+                                <span class="month">feb</span>
+                            </div>
+                            <div class="post-content">
+                                <img src="images/img-2.jpg" alt="">
+                                <h3 class="post-title">
+                                    <a href="#">Lorem ipsum dolor sit amet, consectetur.</a>
+                                </h3>
+                                <p class="post-description">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum earum porro quisquam repellendus tempora? Pariatur.
+                                </p>
+                                <a href="#" class="read-more">read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> --}}
+
+        <section id="students" class="students ">
+            <div class="container" data-aos="fade-up">
+                <div class="section-header">
+                    <h2>Placed Students</h2>
+                    <p>Check <span>Our Alumini</span></p>
+                </div>
+
+                <div class="container">
+                    <div class="row">
+                       
+                        <div class="col-6 text-right">
+                            <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                                <i class="fa fa-arrow-left"></i>
+                            </a>
+                            <a class="btn btn-primary mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
+                                <i class="fa fa-arrow-right"></i>
+                            </a>
+                        </div>
+                        <div class="col-12">
+                            <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+            
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="row">
+            
+                                            <div class="col-md-3 mb-3">
+                                                <div class="card">
+                                                    <img class="img-fluid" alt="100%x280" src="{{ asset('home/img/gallery/g1.JPG') }}">
+                                                    <div class="card-body">
+                                                        <h4 class="card-title">Special title treatment</h4>
+                                                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            
+                                                    </div>
+            
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 mb-3">
+                                                <div class="card">
+                                                    <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1517760444937-f6397edcbbcd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=42b2d9ae6feb9c4ff98b9133addfb698">
+                                                    <div class="card-body">
+                                                        <h4 class="card-title">Special title treatment</h4>
+                                                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 mb-3">
+                                                <div class="card">
+                                                    <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532712938310-34cb3982ef74?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=3d2e8a2039c06dd26db977fe6ac6186a">
+                                                    <div class="card-body">
+                                                        <h4 class="card-title">Special title treatment</h4>
+                                                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 mb-3">
+                                                <div class="card">
+                                                    <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532712938310-34cb3982ef74?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=3d2e8a2039c06dd26db977fe6ac6186a">
+                                                    <div class="card-body">
+                                                        <h4 class="card-title">Special title treatment</h4>
+                                                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            
+                                                    </div>
+                                                </div>
+                                            </div>
+            
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="row">
+            
+                                            <div class="col-md-3 mb-3">
+                                                <div class="card">
+                                                    <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532771098148-525cefe10c23?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=3f317c1f7a16116dec454fbc267dd8e4">
+                                                    <div class="card-body">
+                                                        <h4 class="card-title">Special title treatment</h4>
+                                                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            
+                                                    </div>
+            
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 mb-3">
+                                                <div class="card">
+                                                    <img class="img-fluid" alt="100%x280" src="{{ asset('home/img/gallery/g1.JPG') }}">
+                                                    <div class="card-body">
+                                                        <h4 class="card-title">Special title treatment</h4>
+                                                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 mb-3">
+                                                <div class="card">
+                                                    <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=0754ab085804ae8a3b562548e6b4aa2e">
+                                                    <div class="card-body">
+                                                        <h4 class="card-title">Special title treatment</h4>
+                                                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 mb-3">
+                                                <div class="card">
+                                                    <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=0754ab085804ae8a3b562548e6b4aa2e">
+                                                    <div class="card-body">
+                                                        <h4 class="card-title">Special title treatment</h4>
+                                                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="row">
+            
+                                            <div class="col-md-3 mb-3">
+                                                <div class="card">
+                                                    <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=ee8417f0ea2a50d53a12665820b54e23">
+                                                    <div class="card-body">
+                                                        <h4 class="card-title">Special title treatment</h4>
+                                                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            
+                                                    </div>
+            
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 mb-3">
+                                                <div class="card">
+                                                    <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532777946373-b6783242f211?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=8ac55cf3a68785643998730839663129">
+                                                    <div class="card-body">
+                                                        <h4 class="card-title">Special title treatment</h4>
+                                                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 mb-3">
+                                                <div class="card">
+                                                    <img class="img-fluid" alt="100%x280" src="{{ asset('home/img/gallery/g1.JPG') }}">
+                                                    <div class="card-body">
+                                                        <h4 class="card-title">Special title treatment</h4>
+                                                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 mb-3">
+                                                <div class="card">
+                                                    <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532763303805-529d595877c5?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=5ee4fd5d19b40f93eadb21871757eda6">
+                                                    <div class="card-body">
+                                                        <h4 class="card-title">Special title treatment</h4>
+                                                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ======= Gallery Section ======= -->
+        <section id="gallery" class="gallery section-bg ">
+            <div class="container" data-aos="fade-up">
+>>>>>>> Stashed changes
 
           <div class="col-lg-3 col-md-6">
             <div class="stats-item text-center w-100 h-100">
@@ -226,12 +432,45 @@
             </div>
           </div><!-- End Stats Item -->
 
+<<<<<<< Updated upstream
           <div class="col-lg-3 col-md-6">
             <div class="stats-item text-center w-100 h-100">
               <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
               <p>Hours Of Support</p>
             </div>
           </div><!-- End Stats Item -->
+=======
+                <div class="gallery-slider swiper">
+                    <div class="swiper-wrapper align-items-center">
+                        <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
+                                href="{{ asset('home/img/gallery/g1.JPG') }}"><img
+                                    src="{{ asset('home/img/gallery/g1.JPG') }}" class="img-fluid"
+                                    alt=""></a></div>
+                        <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
+                                href="{{ asset('home/img/gallery/g2.JPG') }}"><img
+                                    src="{{ asset('home/img/gallery/g2.JPG') }}" class="img-fluid"
+                                    alt=""></a></div>
+                        <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
+                                href="{{ asset('home/img/gallery/g3.JPG') }}"><img
+                                    src="{{ asset('home/img/gallery/g3.JPG') }}" class="img-fluid"
+                                    alt=""></a></div>
+                        {{-- <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
+                                href="{{ asset('home/img/gallery/g4.jpg') }}"><img
+                                    src="{{ asset('home/img/gallery/g4.jpg') }}" class="img-fluid"
+                                    alt=""></a></div> --}}
+                        <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
+                                href="{{ asset('home/img/gallery/g5.JPG') }}"><img
+                                    src="{{ asset('home/img/gallery/g5.JPG') }}" class="img-fluid"
+                                    alt=""></a></div>
+                        <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
+                                href="{{ asset('home/img/gallery/g6.JPG') }}"><img
+                                    src="{{ asset('home/img/gallery/g6.JPG') }}" class="img-fluid"
+                                    alt=""></a></div>
+                        
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+>>>>>>> Stashed changes
 
           <div class="col-lg-3 col-md-6">
             <div class="stats-item text-center w-100 h-100">
@@ -255,6 +494,7 @@
           <p>What Are They <span>Saying About Us</span></p>
         </div>
 
+<<<<<<< Updated upstream
         <div class="slides-1 swiper" data-aos="fade-up" data-aos-delay="100">
           <div class="swiper-wrapper">
 
@@ -353,6 +593,37 @@
                 </div>
               </div>
             </div><!-- End testimonial item -->
+=======
+                <form action="{{ route('savecontact') }}" method="POST" role="form" class="php-email-form p-3 p-md-4">
+                @csrf
+                    <div class="row">
+                        <div class="col-xl-6 form-group">
+                            <input type="text" name="name" class="form-control" id="name"
+                                placeholder="Your Name" />
+                        </div>
+                        <div class="col-xl-6 form-group">
+                            <input type="email" class="form-control" name="email" id="email"
+                                placeholder="Your Email" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="subject" id="subject"
+                            placeholder="Subject" />
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" name="message" rows="5" placeholder="Message" ></textarea>
+                    </div>
+                    {{-- <div class="my-3">
+                        <div class="loading">Loading</div>
+                        <div class="error-message"></div>
+                        <div class="sent-message">Your message has been sent. Thank you!</div>
+                    </div> --}}
+                    <div class="text-center">
+                        <button type="submit">Send Message</button>
+                    </div>
+                </form>
+                <!--End Contact Form -->
+>>>>>>> Stashed changes
 
           </div>
           <div class="swiper-pagination"></div>
@@ -675,6 +946,7 @@
 
   <div id="preloader"></div>
 
+<<<<<<< Updated upstream
   <!-- Vendor JS Files -->
   <script src="{{asset('home/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
   <script src="{{asset('home/vendor/aos/aos.js')}}"></script>
@@ -686,6 +958,20 @@
   <!-- Template Main JS File -->
   <script src="{{asset('home/js/main.js')}}"></script>
 
+=======
+    <!-- Vendor JS Files -->
+    <script src="{{ asset('home/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ asset('home/vendor/aos/aos.js') }}"></script>
+    <script src="{{ asset('home/vendor/glightbox/js/glightbox.min.js') }}"></script>
+    <script src="{{ asset('home/vendor/purecounter/purecounter_vanilla.js') }}"></script>
+    <script src="{{ asset('home/vendor/swiper/swiper-bundle.min.js') }}"></script>
+    {{-- <script src="{{ asset('home/vendor/php-email-form/validate.js') }}"></script> --}}
+
+    <!-- Template Main JS File -->
+    <script src="{{ asset('home/js/main.js') }}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+>>>>>>> Stashed changes
 </body>
 
 </html>

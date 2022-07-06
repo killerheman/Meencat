@@ -15,6 +15,10 @@ return new class extends Migration
     {
         Schema::create('placed_students', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
+            $table->string('companyname');
+            $table->string('uploadimage');
+            $table->softDeletes();
             $table->timestamps();
         });
     }

@@ -18,6 +18,8 @@
       <link rel="stylesheet" href="{{asset('Backend/assets/pages/waves/css/waves.min.css')}}" type="text/css" media="all">
       <!-- themify icon -->
       <link rel="stylesheet" type="text/css" href="{{asset('Backend/assets/icon/themify-icons/themify-icons.css')}}">
+       <!-- ico font -->
+       <link rel="stylesheet" type="text/css" href="{{asset('Backend/assets/icon/icofont/css/icofont.css')}}">
       <!-- Font Awesome -->
       <link rel="stylesheet" type="text/css" href="{{asset('Backend/assets/icon/font-awesome/css/font-awesome.min.css')}}">
       <!-- scrollbar.css -->

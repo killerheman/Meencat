@@ -64,7 +64,7 @@
   @include('Backend.includes.topbar')
   @include('Backend.includes.sidebar')
   <div class="pcoded-content">
-  @include('Backend.includes.header')
+  <!-- @include('Backend.includes.header') -->
                      
                       <!-- Page-header end -->
                       @yield('content')

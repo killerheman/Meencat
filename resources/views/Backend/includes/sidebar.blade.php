@@ -30,7 +30,7 @@
                 </div>
                 <ul class="pcoded-item pcoded-left-item">
                     <li class="active">
-                        <a href="index.html" class="waves-effect waves-dark">
+                        <a href="{{route('backend.dashboard')}}" class="waves-effect waves-dark">
                             <span class="pcoded-micon"><i class="ti-home"></i><b>D</b></span>
                             <span class="pcoded-mtext" data-i18n="nav.dash.main">Dashboard</span>
                             <span class="pcoded-mcaret"></span>
@@ -39,7 +39,7 @@
                     </li></ul>
                     <ul class="pcoded-item pcoded-left-item">
                     <li class="">
-                        <a href="javascript:void(0)" class="waves-effect waves-dark">
+                        <a href="{{route('backend.student')}}" class="waves-effect waves-dark">
                             <span class="pcoded-micon"><i class="ti-user" ></i></span>
                             <span class="pcoded-mtext">Registerd Students</span>
                         </a>
@@ -47,7 +47,7 @@
                 </ul>
                 <ul class="pcoded-item pcoded-left-item">
                     <li class="">
-                        <a href="javascript:void(0)" class="waves-effect waves-dark">
+                        <a href="{{route('backend.placedstudent')}}" class="waves-effect waves-dark">
                             <span class="pcoded-micon"><i class="fa fa-users"></i></span>
                             <span class="pcoded-mtext">Placed Students</span>
                         </a>
@@ -55,7 +55,7 @@
                 </ul> 
                 <ul class="pcoded-item pcoded-left-item">
                     <li class="">
-                        <a href="javascript:void(0)" class="waves-effect waves-dark">
+                        <a href="{{route('backend.gallery')}}" class="waves-effect waves-dark">
                             <span class="pcoded-micon"><i class="ti-image"></i></span>
                             <span class="pcoded-mtext">Gallery</span>
                         </a>
@@ -63,9 +63,17 @@
                 </ul>
                 <ul class="pcoded-item pcoded-left-item">
                     <li class="">
-                        <a href="javascript:void(0)" class="waves-effect waves-dark">
+                        <a href="{{route('backend.contacts')}}" class="waves-effect waves-dark">
                             <span class="pcoded-micon"><i class="fa fa-id-card"></i></span>
                             <span class="pcoded-mtext">Contacts</span>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="pcoded-item pcoded-left-item">
+                    <li class="">
+                        <a href="{{url('/admin/course')}}" class="waves-effect waves-dark">
+                            <span class="pcoded-micon"><i class="fa fa-book"></i></span>
+                            <span class="pcoded-mtext">Course</span>
                         </a>
                     </li>
                 </ul>
