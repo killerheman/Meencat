@@ -1,6 +1,5 @@
 @extends('Backend.includes.layout')
 @section('content')
-    <!-- Basic table card start -->
     <!-- Page-header start -->
     <div class="page-header">
         <div class="page-block">
@@ -88,7 +87,7 @@
                 <div class="table-responsive">
                     <table class="table table-hover">
                         <thead>
-                          
+
                                 <tr>
                                 <th>Sr.No</th>
                                 <th>Students Name</th>
@@ -110,7 +109,7 @@
                                 <td>
                                     <button class="btn waves-effect waves-light btn-info btn-icon"><i
                                             class="icofont icofont-edit"></i></button>
-                                   
+
                                             <a href="{{url('backend/delplaced/'.$dt->id)}}" class="btn waves-effect waves-light btn-danger btn-icon">
                                                 <i class=" icofont icofont-trash"></i>
                                             </a>

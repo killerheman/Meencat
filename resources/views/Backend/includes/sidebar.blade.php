@@ -52,7 +52,7 @@
                             <span class="pcoded-mtext">Placed Students</span>
                         </a>
                     </li>
-                </ul> 
+                </ul>
                 <ul class="pcoded-item pcoded-left-item">
                     <li class="">
                         <a href="{{route('backend.gallery')}}" class="waves-effect waves-dark">
@@ -71,7 +71,7 @@
                 </ul>
                 <ul class="pcoded-item pcoded-left-item">
                     <li class="">
-                        <a href="{{url('/admin/course')}}" class="waves-effect waves-dark">
+                        <a href="{{route('backend.course')}}" class="waves-effect waves-dark">
                             <span class="pcoded-micon"><i class="fa fa-book"></i></span>
                             <span class="pcoded-mtext">Course</span>
                         </a>

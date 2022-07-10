@@ -18,10 +18,12 @@ Route::group(['prefix' => 'backend', 'as' => 'backend.'], function () {
     Route::post('/saveplacedstudent', [AdminController::class, 'saveplacedstudent'])->name('saveplacedstudent');
     Route::get('/admin/gallery', [AdminController::class, 'gallery'])->name('gallery');
     Route::post('/savegallery', [AdminController::class, 'savegallery'])->name('savegallery');
+    Route::get('/delgallery/{del}', [AdminController::class, 'delGallery'] );
     Route::get('/admin/contacts', [AdminController::class, 'contacts'])->name('contacts');
     Route::get('/delcontact/{del}', [AdminController::class, 'deletecontact'] );
     Route::get('/delplaced/{del}', [AdminController::class, 'delplaced']);
     Route::get('/admin/course', [AdminController::class, 'course'])->name('course');
-
+    Route::post('/savecourse', [AdminController::class, 'saveCourse'])->name('savecourse');
+    Route::get('/delcourse/{del}', [AdminController::class, 'delCourse'] );
 
 });

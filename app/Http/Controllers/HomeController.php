@@ -6,18 +6,20 @@ use Illuminate\Http\Request;
 use Log;
 use app\Models\Student;
 use App\Models\Contact;
+use App\Models\course;
+use App\Models\PlacedStudent;
 
 class HomeController extends Controller
 {
     function index()
     {
-        Log::info('indexpage called');
-        return view('index');
+        $courses = course::where('deleted_at',NULL)->get();
+        $alumini = PlacedStudent::where('deleted_at',NULL)->get();
+        return view('index',compact('courses'),compact('alumini'));
     }
 
     function savecontact(Request $req)
     {
-        Log::info('savecontact called');
         $arr = [
             'name' => $req->name,
             'email' => $req->email,

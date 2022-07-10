@@ -9,6 +9,7 @@ use App\Models\Student;
 use App\Models\PlacedStudent;
 use App\Models\Gallery;
 use App\Models\Contact;
+use App\Models\course;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Log as FacadesLog;
 use Illuminate\Support\Facades\Session;
@@ -18,7 +19,7 @@ class AdminController extends Controller
     function login(){
         return view('login');
     }
-    
+
     function adminLogin(Request $req)
     {
         $validate= $req-> validate([
@@ -34,12 +35,14 @@ class AdminController extends Controller
             Session::put(['admin'=>$email]);
             Session::flash('success', 'Welcome Admin');
             return redirect('backend/admin/dashboard');
-        }else{
+        }
+        else
+        {
             Session::flash('error', 'Invalid Login details');
             return redirect('/admin');
         }
     }
-    
+
     function logout(){
         Session::flush();
         return view('index');
@@ -52,14 +55,11 @@ class AdminController extends Controller
     }
     function placedstudent(){
         $data= PlacedStudent::where('deleted_at',NULL)->get();
-        Log::info('placed show'.json_encode($data));
         return view('Backend.placedstudent',compact('data'));
     }
     function saveplacedstudent(Request $req){
-        Log::info('saveplacedstudent called');
         if($req->hasFile('filename'))
         {
-            Log::info('saveplacedstudent called if');
             $image = $req->file('filename');
             $filename='gal-'.time().'-'.rand(0,99).'-'.rand(0,99).'.'.$req->filename->extension();
             if($req->filename->move(public_path('upload/placed-student'),$filename))
@@ -70,7 +70,6 @@ class AdminController extends Controller
                     'uploadimage'=>$filename
 
                 ];
-                Log::info('data'.json_encode($data));
                 if(placedstudent::create($data))
                 {
                     return back()->with('success','Gallery Added Successfully');
@@ -103,15 +102,15 @@ class AdminController extends Controller
             return redirect()->back()->with('message', 'Data not deleted successfully');
         }
     }
+
     function gallery(){
-        return view('Backend.gallery');
+        $data= Gallery::where('deleted_at',NULL)->get();
+        return view('Backend.gallery',compact('data'));
     }
 
     function savegallery(Request $req){
-        Log::info('savegallery called');
         if($req->hasFile('filename'))
         {
-            Log::info('savegallery called if');
             $image = $req->file('filename');
             $filename='gal-'.time().'-'.rand(0,99).'-'.rand(0,99).'.'.$req->filename->extension();
             if($req->filename->move(public_path('upload/gallery'),$filename))
@@ -120,7 +119,6 @@ class AdminController extends Controller
                     'text'=>$req->text,
                     'uploadimage'=>$filename
                 ];
-                Log::info('data'.json_encode($data));
                 if(Gallery::create($data))
                 {
                     return back()->with('success','Gallery Added Successfully');
@@ -142,6 +140,18 @@ class AdminController extends Controller
         }
     }
 
+    function delGallery($id)
+    {
+        if(Gallery::find($id)->delete())
+        {
+            return redirect()->back()->with('message', 'Data deleted successfully');
+        }
+        else
+        {
+            return redirect()->back()->with('message', 'Data not deleted successfully');
+        }
+    }
+
     function contacts(){
         $data= Contact::where('deleted_at',NULL)->get();
         return view('Backend.contacts',compact('data'));
@@ -159,7 +169,54 @@ class AdminController extends Controller
         }
     }
     function course(){
-        return view('backend.course');
+        $data= course::where('deleted_at',NULL)->get();
+        return view('Backend.course',compact('data'));
     }
-   
+
+    function saveCourse(Request $req){
+        if($req->hasFile('filename'))
+        {
+            $image = $req->file('filename');
+            $filename='gal-'.time().'-'.rand(0,99).'-'.rand(0,99).'.'.$req->filename->extension();
+            if($req->filename->move(public_path('upload/course'),$filename))
+            {
+                $data= [
+                    'name'=>$req->name,
+                    'description'=>$req->description,
+                    'price'=>$req->price,
+                    'image'=>$filename
+                ];
+                if(course::create($data))
+                {
+                    return back()->with('success','Course Added Successfully');
+                }
+                else
+                {
+                    return back()->with('failed','OOP\'s !!! Course not added please try again....');
+                }
+
+            }
+            else
+            {
+                return back()->with('failed','OOP\'s !!! Course not added please try again....');
+            }
+        }
+        else
+        {
+            return back()->with('failed','OOP\'s !!! Course not added please Choose pic....');
+        }
+    }
+
+    function delCourse($id)
+    {
+        if(course::find($id)->delete())
+        {
+            return redirect()->back()->with('message', 'Data deleted successfully');
+        }
+        else
+        {
+            return redirect()->back()->with('message', 'Data not deleted successfully');
+        }
+    }
+
 }
