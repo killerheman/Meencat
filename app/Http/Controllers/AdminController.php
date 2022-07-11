@@ -11,7 +11,6 @@ use App\Models\Gallery;
 use App\Models\Contact;
 use App\Models\course;
 use Illuminate\Support\Facades\Hash;
-use Illuminate\Support\Facades\Log as FacadesLog;
 use Illuminate\Support\Facades\Session;
 
 class AdminController extends Controller
@@ -50,9 +49,24 @@ class AdminController extends Controller
     function dashboard(){
         return view('Backend.dashboard');
     }
-    function student(){
-        return view('Backend.student');
+    function student()
+    {
+        $data=Student::where('deleted_at',NULL)->get();
+        return view('Backend.student',compact('data'));
     }
+
+    function delregstudent($id){
+        $data = Student::find($id);
+        if($data->delete())
+        {
+            return redirect()->back()->with('message', 'Data deleted successfully');
+        }
+        else
+        {
+            return redirect()->back()->with('message', 'Data not deleted successfully');
+        }
+    }
+
     function placedstudent(){
         $data= PlacedStudent::where('deleted_at',NULL)->get();
         return view('Backend.placedstudent',compact('data'));

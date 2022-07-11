@@ -45,24 +45,48 @@
                                                             <tr>
                                                                 <th>Sr.No</th>
                                                                 <th>Name</th>
-                                                                <th>Phone</th>
-                                                                <th>E-mail Id</th>
+                                                                <th>Father's Name</th>
+                                                                <th>D.O.B.</th>
+                                                                <th>Aadhar No.</th>
+                                                                <th>Mobile</th>
+                                                                <th>Email</th>
+                                                                <th>Max Qualification</th>
+                                                                <th>Dream Company</th>
+                                                                <th>Course</th>
+                                                                <th>Price</th>
+                                                                <th>Payment Status</th>
                                                                 <th>Action</th>
                                                             </tr>
                                                         </thead>
                                                         <tbody>
-                                                            <tr>
-                                                                <th scope="row">1</th>
-                                                                <td>Mark</td>
-                                                                <td>Otto</td>
-                                                                <td>@mdo</td>
-                                                                <td>
-                                                                <button class="btn waves-effect waves-light btn-info btn-icon"><i class="icofont icofont-edit"></i></button>
-                                                                <button class="btn waves-effect waves-light btn-danger btn-icon"><i class=" icofont icofont-trash"></i></button>
-
-                                                                </td>
-                                                            </tr>
-                                                            
+                                                            @php
+                                                                $sn = 1;
+                                                            @endphp
+                                                            @foreach ($data as $dt)
+                                                                <tr>
+                                                                    <th>{{ $sn }}</th>
+                                                                    <td>{{ $dt->name }}</td>
+                                                                    <td>{{ $dt->fname }}</td>
+                                                                    <td>{{ $dt->dob }}</td>
+                                                                    <td>{{ $dt->aadharno }}</td>
+                                                                    <td>{{ $dt->mobile }}</td>
+                                                                    <td>{{ $dt->email }}</td>
+                                                                    <td>{{ $dt->maxqualification }}</td>
+                                                                    <td>{{ $dt->dreamcompany }}</td>
+                                                                    <td>{{ $dt->course }}</td>
+                                                                    <td>{{ $dt->price }}</td>
+                                                                    <td><i>Pending</i></td>
+                                                                    <td>
+                                                                        <a href="{{ url('backend/delregstudent/' . $dt->id) }}"
+                                                                            class="btn waves-effect waves-light btn-danger btn-icon">
+                                                                            <i class=" icofont icofont-trash"></i>
+                                                                        </a>
+                                                                    </td>
+                                                                </tr>
+                                                                @php
+                                                                    $sn++;
+                                                                @endphp
+                                                            @endforeach
                                                         </tbody>
                                                     </table>
                                                 </div>
