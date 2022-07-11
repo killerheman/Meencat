@@ -11,11 +11,12 @@ use App\Models\PlacedStudent;
 
 class HomeController extends Controller
 {
+
     function index()
     {
         $courses = course::where('deleted_at',NULL)->get();
         $alumini = PlacedStudent::where('deleted_at',NULL)->get();
-        return view('index',compact('courses'),compact('alumini'));
+        return view('Frontend.index',compact('courses'),compact('alumini'));
     }
 
     function savecontact(Request $req)
@@ -35,5 +36,7 @@ class HomeController extends Controller
             return redirect()->back()->with('message', 'Form submitted successfully');
         }
     }
-
+function register(){
+    return view('Frontend.register');
+}
 }

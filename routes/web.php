@@ -4,10 +4,11 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AdminController;
 
-
 Route::get('/', [HomeController::class, 'index'] )->name('index');
 Route::post('/savecontact', [HomeController::class, 'savecontact'])->name('savecontact');
 Route::get('/admin', [AdminController::class, 'login'])->name('admin');
+Route::get('/register', [HomeController::class, 'register'] )->name('register');
+
 
 Route::group(['prefix' => 'backend', 'as' => 'backend.'], function () {
     Route::post('/adminlogin', [AdminController::class, 'adminLogin'])->name('adminLogin');
