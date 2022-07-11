@@ -44,7 +44,7 @@ class AdminController extends Controller
 
     function logout(){
         Session::flush();
-        return view('index');
+        return redirect('/');
     }
     function dashboard(){
         $student = Student::count();
