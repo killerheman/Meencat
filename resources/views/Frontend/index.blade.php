@@ -244,9 +244,6 @@
                                 src="{{ asset('upload/gallery/' . $gall->uploadimage) }}" class="img-fluid" alt=""></a>
                          </div>
                         @endforeach
-
-
-
                     </div>
                     <div class="swiper-pagination"></div>
                 </div>
@@ -269,7 +266,7 @@
                             <div class="col-md-3 col-sm-6">
                                 <div class="our-team">
                                     <div class="pic">
-                                        <img src="{{ asset('upload/placed-student/' . $alm->uploadimage) }}">
+                                        <img src="{{ asset('upload/placed-student/' . $alm->uploadimage) }}" style="height:300px;width:350px;">
                                     </div>
                                     <div class="team-content">
                                         <h3 class="title">{{ $alm->name }}</h3>

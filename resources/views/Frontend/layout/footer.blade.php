@@ -55,7 +55,7 @@
                         </div>
                     </div>
                     </div>
-                   
+
 
             </div>
         </div>
@@ -63,7 +63,7 @@
         <div class="container">
             <div class="copyright">
                 &copy; Copyright <strong><span>MeeNCat</span></strong>. All Rights Reserved Designed by<a
-                    href="http://saanvinnovation.com/"> Saanvi Invovation Pvt. Ltd</a>
+                   target="_blank" href="http://saanvinnovation.com/"> Saanvi Invovation Pvt. Ltd</a>
             </div>
 
 

@@ -27,7 +27,7 @@
  <div class="container">
  <div class="card">
                                             <div class="card-header">
-                                                <h3>Registerd Students</h3>
+                                                <h3>Registered Students</h3>
                                                 <div class="card-header-right">
                                                     <ul class="list-unstyled card-option">
                                                         <li><i class="fa fa fa-wrench open-card-option"></i></li>

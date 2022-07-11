@@ -18,7 +18,6 @@ class HomeController extends Controller
         $courses = course::where('deleted_at',NULL)->get();
         $alumini = PlacedStudent::where('deleted_at',NULL)->get();
         $gallery = Gallery::where('deleted_at',NULL)->get();
-        Log::info("gallery".json_encode($gallery) );
         return view('Frontend.index',compact('courses','alumini','gallery'));
     }
 

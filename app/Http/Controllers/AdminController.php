@@ -47,7 +47,11 @@ class AdminController extends Controller
         return view('index');
     }
     function dashboard(){
-        return view('Backend.dashboard');
+        $student = Student::count();
+        $placed_student = placedstudent::count();
+        $course = course::count();
+        $contact = Contact::count();
+        return view('Backend.dashboard',compact('student','placed_student','course','contact'));
     }
     function student()
     {
